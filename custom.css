@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+
+body {
+    background-image: url("gif/vincent.gif");
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+nav {
+    background-image: url("gif/scifi.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+}
+.navbar-brand:hover {
+    transition: .5s;
+    font-size: 150%;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+}
+nav ul li a {
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Bangers', cursive;
+    
+}
+nav ul li a:hover {
+    transition: .5s;
+    background-color: orange;
+    font-size: large;
+}
+
+.navbar-item {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: none;
+    
+}
+
+.jumbotron h1 {
+    font-family: 'Bangers', cursive;
+    color: gold;
+}
+
+.jumbotron p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+/* accordion */
+
+#collapseOne .card, #collapseTwo .card{
+    text-align: center;
+}
+
+#collapseOne .card p, #collapseTwo .card p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Cards */
+.card {
+    background-color: black;
+    width: 100%;
+   
+}
+
+.card img {
+    height: 500px;
+}
+
+.card-title {
+    font-family: 'Bangers', cursive;;
+}
+
+
+.btn-lg {
+    font-size: 32px;
+    color: aqua;
+    width: 100%;
+    background-image: url("gif/scifi.gif");
+    background-size: contain;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn-lg:hover {
+
+    transition: .5s;
+    font-size: 42px;
+    color: orange;
+}
+#collapseOne, #collapseTwo, #collapseCoffee {
+    background-size: contain;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* buy coffee payment */
+#collapseCoffee .btn.btn-primary {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+}
+
+#collapseCoffee .btn.btn.btn-primary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#collapseCoffee .btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(15px);
+    transition: transform 0.2s ease-in;
+}
+
+#collapseCoffee .form-control {
+    color: white;
+    background-color: #223C60;
+    border: 2px solid transparent;
+    height: 60px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+#collapseCoffee .form-control:focus {
+    color: white;
+    background-color: #0C4160;
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+}
+
+#collapseCoffee .text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#collapseCoffee ::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#collapseCoffee .container .h8 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: gold;
+}
+
+/* footer */
+
+#footer .container-fluid h2, h4 {
+    font-family: 'Bangers', cursive;
+    color: gold;
+}
+
+#footer .container-fluid p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+}
+
+#footer .form-control {
+    color: white;
+    background-color: #223C60;
+    border: 2px solid transparent;
+    height: 50px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+#footer .form-control:focus {
+    color: white;
+    background-color: #0C4160;
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+}
+
+#footer ::placeholder {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#footer .btn.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+}
+
+#footer .btn.btn.btn-primary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(12px);
+    transition: transform 0.2s ease-in;
+}
